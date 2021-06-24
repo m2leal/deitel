@@ -22,19 +22,37 @@ public class Exercicio_17
 		z = input.nextInt();
 		
 		int soma = x + y + z;
-		System.out.printf("Soma: %d", soma);
+		System.out.printf("Soma: %d%n", soma);
 		
 		int media = soma/3;
-		System.out.printf("Média: %d", media);
+		System.out.printf("Média: %d%n", media);
 		
+		int produto = x * y * z;
+		System.out.printf("Produto: %d%n", produto);
+		
+		/* X e Y */
 		if(x > y)
-			System.out.printf("%d > %d", x, y);
-		
+			System.out.printf("x(%d) > y(%d)%n", x, y);
 		if(x == y)
-			System.out.printf("%d == %d", x, y);
+			System.out.printf("x(%d) == y(%d)%n", x, y);
+		if(x < y)
+			System.out.printf("x(%d) < y(%d)%n", x, y);
 		
-		if(y > x)
-			System.out.printf("%d > %d", y, x);
+		/* X e Z */
+		if(x > z)
+			System.out.printf("x(%d) > z(%d)%n", x, z);
+		if(x == z)
+			System.out.printf("x(%d) == z(%d)%n", x, z);
+		if(x < z)
+			System.out.printf("x(%d) < z(%d)%n", x, z);
+		
+		/* Y e Z */
+		if(y > z)
+			System.out.printf("y(%d) > z(%d)%n", y, z);
+		if(y == z)
+			System.out.printf("y(%d) == Z(%d)%n", y, z);
+		if(y < z)
+			System.out.printf("y(%d) > z(%d)%n", y, z);
 		
 		input.close();
 	}
