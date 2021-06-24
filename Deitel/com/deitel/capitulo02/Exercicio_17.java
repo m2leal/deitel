@@ -2,7 +2,7 @@ package com.deitel.capitulo02;
 
 import java.util.Scanner;
 
-public class Exercicio_17
+public class Exercicio_17 
 {
 	public static void main(String[] args)
 	{
