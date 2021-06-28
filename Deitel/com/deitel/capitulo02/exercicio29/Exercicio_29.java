@@ -1,4 +1,4 @@
-package com.deitel.capitulo02;
+package com.deitel.capitulo02.exercicio29;
 
 public class Exercicio_29 {
 	public static void main(String[] args) {

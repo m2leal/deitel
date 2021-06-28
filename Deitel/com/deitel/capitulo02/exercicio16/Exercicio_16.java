@@ -1,4 +1,4 @@
-package com.deitel.capitulo02;
+package com.deitel.capitulo02.exercicio16;
 
 import java.util.Scanner;
 

@@ -1,10 +1,10 @@
 // Exercício 2.6
 // Calcula o produto de três inteiros.
-package com.deitel.capitulo02;
+package com.deitel.capitulo02.exercicio06;
 
 import java.util.Scanner;
 
-public class Exercicio_06
+public class Produto
 {
 	public static void main(String[] args)
 	{
